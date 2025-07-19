@@ -1,17 +1,19 @@
 # promptIS
 ## File Directory
-- Codebleu_analysis/
-- H_complexity_analysis/
-- IWAE_model/
-- __pycache__/
-- c_compleity_analysis/
-- code_review/
-- correctness_analysis/
-- processed_data/
-- security_analysis/
-- IWAE_main.py
-- README.md
-- example_cfg.png
-- preprocess.py
-- start.sh
-- util.py
+-framework/
+-- H_complexity_analysis/ # Halstead complexity analysis
+-- IWAE_model/ # IWAE model store
+-- c_compleity_analysis/ # cyclematic complexity analysis
+-- code_review/ # implementation of IWAE
+-- correctness_analysis/ 
+-- processed_data/ # processed data
+-- security_analysis/ # security analysis
+-- IWAE_main.py 
+-- README.md
+-- example_cfg.png
+-- preprocess.py
+-- start.sh
+-- util.py
+-dataset
+## How to start
+Download data
